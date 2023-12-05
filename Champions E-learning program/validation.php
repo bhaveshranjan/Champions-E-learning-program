@@ -15,7 +15,7 @@ else
 	}
 
  mysqli_select_db($con,'uniquedeveloper');
- if ($_post['pass']!= $_post['pass2'])
+ if ($_POST['pass']!= $_POST['pass2'])
  {
 	 echo("Password didn't match   Try Again");
  }
