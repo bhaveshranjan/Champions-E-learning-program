@@ -8,7 +8,7 @@ $conn =mysqli_connect($server , $username , $password , $dbname);
 
 if(isset($_POST['submit'])){
     if(!empty($_POST['username'])&& !empty($_POST['email'])&& !empty($_POST['password'])){
-        if ($_post['password']=$_post['password2'])
+        if ($_POST['password']=$_POST['password2'])
         {
         
         $name = $_POST['username'];
